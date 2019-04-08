@@ -1,3 +1,7 @@
+This app utilizes multiple components (Counter, Counters, & Navbar) to increment the individual value of each Counter and a delete button to delete the Counter. The total number of non-zero counts are displayed at the top and a master reset button resets all remaining Counters' values to 0.
+
+A universal state is maintained and modified at the highest App level, which props and event handlers being used to pass values and event actions to each of the levels of componenets in the app.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
